@@ -1,0 +1,132 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  text-decoration: dashed;
+  font-style: initial;
+  background-color: lightgrey;
+  border: 2px solid black;
+}
+h3{
+   text-decoration: dashed;
+}
+.item{
+   text-align: center;
+   border:2px solid black;
+   width:50px;
+   height: 50px;
+   background-color:lightblue;
+}
+.main{
+   width: 500px;
+   border:2px solid black;
+   display: flex;
+   padding:10px;
+   gap:10px;
+   margin-bottom: 10px; 
+}
+.row{
+   flex-direction: row;
+}
+.column{
+   flex-direction: column;
+}
+.row-reverse{
+   flex-direction: row-reverse;
+}
+.column-reverse{
+   flex-direction: column-reverse;
+}
+.item0{
+   text-align: center;
+   border:2px solid black;
+   width:50px;
+   height: 50px;
+   background-color:lightblue;
+}
+.container1{
+   border:2px solid black;
+   height: 200px;
+   width: 500px;
+   display: flex;
+   flex-direction: row;
+   padding:10px;
+   gap:10px;
+   margin-bottom: 10px;
+}
+.flex-start{
+   align-items: flex-start;
+}
+.center{
+   align-items: center;
+}
+.end{
+   align-items: end;
+}
+.strech{
+   align-items: stretch;
+}
+.item1{
+   text-align: center;
+   border:2px solid black;
+   width:50px;
+   background-color:lightblue;
+}
+.container2{
+   border:2px solid black;
+   height:200px;
+   width: 500px;
+   display: flex;
+   flex-direction: row;
+   padding:10px;
+   gap:10px;
+   margin-bottom: 10px; 
+}
+.flex-start1{
+   justify-content: flex-start;
+}
+.center1{
+   justify-content: center;
+}
+.end1{
+   justify-content: end;
+}
+.space-evenly{
+   justify-content: space-evenly;
+}
+.space-around{
+   justify-content: space-around;
+}
+.space-between{
+   justify-content: space-between;
+}
+.container3{
+   border:2px solid black;
+   height:300px;
+   width: 700px;
+   display: flex;
+   padding:10px;
+   width:250px;
+   gap:10px;
+   margin-bottom: 10px;
+   flex-wrap:wrap; 
+}
+.flex-start2{
+   align-content: start;
+}
+.flex-center2{
+   align-content: center;
+}
+.flex-end2{
+   align-content: end;
+}
+.flex-space-between{
+   align-content: space-between;
+}
+.flex-space-around{
+   align-content:space-around;
+}
+   
